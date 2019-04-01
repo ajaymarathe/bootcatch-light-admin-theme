@@ -1,0 +1,108 @@
+.leads-user{
+    margin-top: 1rem;
+    .card{
+         margin-bottom: 1rem;
+        .header{
+            margin-bottom: 1rem;
+            p{
+                font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 0;
+            }
+            span{
+                font-size: 14px;
+                display: block;
+            }
+        }
+        .card-footer{
+            background:white;
+        }
+    }
+}
+.sales-task{
+    .card{
+           margin-bottom: 1rem;
+        .header{
+            margin-bottom: 1rem;
+            p{
+                margin-bottom: 0;
+            }
+            span{
+                font-weight: 500;
+                font-size: 20px;
+                display: block;
+            }
+        }
+        .table{
+            height: 310px; 
+            overflow: auto;
+        }
+    }
+}
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background: white;
+    p{
+        margin-bottom: 0;
+    }
+}
+// user page
+.user-edit{
+    margin-top: 1rem;
+    .card{
+        margin-bottom: 1rem;
+        .header{
+            margin-bottom: 1rem;
+            span{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+        .author{
+            width: 100%;
+            text-align: center;
+            height: 220px;
+            position: relative;
+            top: -100px;
+            .author-data{
+                margin-top: 0.5rem;
+            }
+        }
+        .card-footer{
+            background:white;
+            i{
+                font-size:20px;
+            }
+        }
+    }
+}
+// table-list page
+.table-list{
+    margin-top: 1rem;
+    .card{
+        margin-bottom: 1rem;
+        .header{
+             margin-bottom: 1rem;
+            span{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+}
+// typography
+.typography{
+    margin-top: 1rem;
+    .card{
+        margin-bottom: 1rem;
+        .header{
+             margin-bottom: 1rem;
+            span{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+}

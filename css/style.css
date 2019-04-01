@@ -1,0 +1,110 @@
+.leads-user {
+  margin-top: 1rem;
+}
+.leads-user .card {
+  margin-bottom: 1rem;
+}
+.leads-user .card .header {
+  margin-bottom: 1rem;
+}
+.leads-user .card .header p {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.leads-user .card .header span {
+  font-size: 14px;
+  display: block;
+}
+.leads-user .card .card-footer {
+  background: white;
+}
+
+.sales-task .card {
+  margin-bottom: 1rem;
+}
+.sales-task .card .header {
+  margin-bottom: 1rem;
+}
+.sales-task .card .header p {
+  margin-bottom: 0;
+}
+.sales-task .card .header span {
+  font-weight: 500;
+  font-size: 20px;
+  display: block;
+}
+.sales-task .card .table {
+  height: 310px;
+  overflow: auto;
+}
+
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background: white;
+}
+.footer p {
+  margin-bottom: 0;
+}
+
+.user-edit {
+  margin-top: 1rem;
+}
+.user-edit .card {
+  margin-bottom: 1rem;
+}
+.user-edit .card .header {
+  margin-bottom: 1rem;
+}
+.user-edit .card .header span {
+  font-weight: 500;
+  font-size: 20px;
+}
+.user-edit .card .author {
+  width: 100%;
+  text-align: center;
+  height: 220px;
+  position: relative;
+  top: -100px;
+}
+.user-edit .card .author .author-data {
+  margin-top: 0.5rem;
+}
+.user-edit .card .card-footer {
+  background: white;
+}
+.user-edit .card .card-footer i {
+  font-size: 20px;
+}
+
+.table-list {
+  margin-top: 1rem;
+}
+.table-list .card {
+  margin-bottom: 1rem;
+}
+.table-list .card .header {
+  margin-bottom: 1rem;
+}
+.table-list .card .header span {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.typography {
+  margin-top: 1rem;
+}
+.typography .card {
+  margin-bottom: 1rem;
+}
+.typography .card .header {
+  margin-bottom: 1rem;
+}
+.typography .card .header span {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
