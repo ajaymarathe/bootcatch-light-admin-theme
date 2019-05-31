@@ -1,11 +1,17 @@
 # bootcatch-light-admin-theme
 Free bootcatch light admin theme is fully responsive for bootstrap lovers, based on bootstrap - under MIT license. do whatever you want to do :)
 
+## first-shot
+[![bootcatch light admin theme](http://preview.bootcatch.com/bootcatch-light-admin-theme/img/first.png)](http://preview.bootcatch.com/bootcatch-light-admin-theme/)
+
+## second-shot
+[![bootcatch light admin theme](http://preview.bootcatch.com/bootcatch-light-admin-theme/img/second.png)](http://preview.bootcatch.com/bootcatch-light-admin-theme/)
+
 ## About
 
 Bootcatch is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Bootcatch are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-* http://bootcatch.com
+* http://preview.bootcatch.com/bootcatch-light-admin-theme/
 
 ## Usage
 
