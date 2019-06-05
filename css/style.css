@@ -107,4 +107,8 @@
   font-size: 20px;
 }
 
+#examples-buttons .card button, #examples-buttons .card a, #examples-buttons .card input {
+  margin-bottom: 1rem !important;
+}
+
 /*# sourceMappingURL=style.css.map */

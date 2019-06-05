@@ -11,15 +11,16 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- font awesome icons cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- chartjs -->
     <script type="text/javascript" src="js/chart.min.js"></script>
 
     <title>Bootcatch Light Admin theme!</title>
   </head>
   <body>
-    
+
     <div class="wrapper">
         <!-- Sidebar  -->
-        <nav id="sidebar" class="bg-white">
+      <nav id="sidebar" class="bg-white">
             <div id="dismiss">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
@@ -83,7 +84,7 @@
         <!-- Page Content  -->
         <div id="content">
             <!-- navbar start -->
-           <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+             <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
                 <a class="navbar-brand text-uppercase" href="index.html">Bootcatch</a>
                  <button type="button" id="sidebarCollapse" class="btn btn-light border d-flex align-items-center rounded-0">
                   <i class="fa fa-bars" aria-hidden="true"></i>
@@ -121,7 +122,7 @@
                   <li class="nav-item">
                         <a class="nav-link" href="#">Info</a>
                     </li>
-                    
+
                          <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Notification's
@@ -157,75 +158,118 @@
                           Logout</a>
                         </div>
                       </li>
-                    
+
                 </ul>
               </div>
             </nav>
 
             <!-- navbar ends -->
-            <div class="container-fluid">
-                <div class="row typography">
-                    <div class="col-md-6">
-                        <div class="card">
+            <div class="container-fluid mt-4 mb-4">
+                <div class="row " id="examples-buttons">
+                    <div class="col-md-6 ">
+
+                        <div class="card ">
+                            <div class="card-header">
+                                #examples
+                            </div>
                             <div class="card-body">
-                                <div class="header">
-                                    <span>Headings</span>
-                                </div>
-                                <h1>h1. Bootstrap heading</h1>
-                                <h2>h2. Bootstrap heading</h2>
-                                <h3>h3. Bootstrap heading</h3>
-                                <h4>h4. Bootstrap heading</h4>
-                                <h5>h5. Bootstrap heading</h5>
-                                <h6>h6. Bootstrap heading</h6>
+                                <button type="button" class="btn btn-primary">Primary</button>
+                                <button type="button" class="btn btn-secondary">Secondary</button>
+                                <button type="button" class="btn btn-success">Success</button>
+                                <button type="button" class="btn btn-danger">Danger</button>
+                                <button type="button" class="btn btn-warning">Warning</button>
+                                <button type="button" class="btn btn-info">Info</button>
+                                <button type="button" class="btn btn-light">Light</button>
+                                <button type="button" class="btn btn-dark">Dark</button>
+                                <button type="button" class="btn btn-link">Link</button>
+                                <!-- tags -->
+                                <p>#tags</p>
                                 <hr>
-                                
-                                <div class="header">
-                                    <span>Inline text elements</span>
-                                </div>  
-                                <p>You can use the mark tag to <mark>highlight</mark> text.</p>
-                                <p><del>This line of text is meant to be treated as deleted text.</del></p>
-                                <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
-                                <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
-                                <p><u>This line of text will render as underlined</u></p>
-                                <p><small>This line of text is meant to be treated as fine print.</small></p>
-                                <p><strong>This line rendered as bold text.</strong></p>
-                                <p><em>This line rendered as italicized text.</em></p>
+                                <a class="btn btn-primary" href="#" role="button">Link</a>
+                                <button class="btn btn-primary" type="submit">Button</button>
+                                <input class="btn btn-primary" type="button" value="Input">
+                                <input class="btn btn-primary" type="submit" value="Submit">
+                                <input class="btn btn-primary" type="reset" value="Reset">
+                                <!-- sizing -->
+                                <p>#Sizing</p>
+                                <hr>
+                                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+                                <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                                <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                                <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <div class="card-body">
-                                <div class="header">
-                                    <span>Display Headings</span>
-                                </div>
-                                <h1 class="display-1">Display 1</h1>
-                                <h1 class="display-2">Display 2</h1>
-                                <h1 class="display-3">Display 3</h1>
-                                <h1 class="display-4">Display 4</h1>
-                                <hr>
-                                <div class="header">
-                                    <span>Blockquotes</span>
-                                </div>
-                                <blockquote class="blockquote">
-                                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                </blockquote>
-                                <hr>
-                                <div class="header">
-                                    <span>Naming Source</span>
-                                </div>
-                                <blockquote class="blockquote">
-                                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                                </blockquote>
+                            <div class="card-header">
+                                #Outlines
                             </div>
-                            
+                            <div class="card-body mb-4">
+                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                                <button type="button" class="btn btn-outline-success">Success</button>
+                                <button type="button" class="btn btn-outline-danger">Danger</button>
+                                <button type="button" class="btn btn-outline-warning">Warning</button>
+                                <button type="button" class="btn btn-outline-info">Info</button>
+                                <button type="button" class="btn btn-outline-light">Light</button>
+                                <button type="button" class="btn btn-outline-dark">Dark</button>
+
+                                <!-- Checkbox and radio buttons -->
+                                <p>#Checkbox and radio buttons</p>
+                                <hr>
+                                <div class="btn-group-toggle mb-3" data-toggle="buttons">
+                                  <label class="btn btn-secondary active">
+                                    <input type="checkbox" checked autocomplete="off"> Checked
+                                  </label>
+                                </div>
+
+                                <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
+                                  <label class="btn btn-secondary active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+                                  </label>
+                                  <label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+                                  </label>
+                                  <label class="btn btn-secondary">
+                                    <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+                                  </label>
+                                </div>
+                                <!-- button group -->
+                                <p>Button Group</p>
+                                <hr>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                  <button type="button" class="btn btn-secondary">Left</button>
+                                  <button type="button" class="btn btn-secondary">Middle</button>
+                                  <button type="button" class="btn btn-secondary">Right</button>
+                                </div>
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                  <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-secondary">1</button>
+                                    <button type="button" class="btn btn-secondary">2</button>
+                                    <button type="button" class="btn btn-secondary">3</button>
+                                    <button type="button" class="btn btn-secondary">4</button>
+                                  </div>
+                                  <div class="btn-group mr-2" role="group" aria-label="Second group">
+                                    <button type="button" class="btn btn-secondary">5</button>
+                                    <button type="button" class="btn btn-secondary">6</button>
+                                    <button type="button" class="btn btn-secondary">7</button>
+                                  </div>
+                                  <div class="btn-group" role="group" aria-label="Third group">
+                                    <button type="button" class="btn btn-secondary">8</button>
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- footer start -->
-            <div class="footer" >
+            <div class="footer bg-secondary" >
                 <p>2019 © <a href="http://bootcatch.com" target="_blank">bootcatch Team</a> , made with love for bootstrap lovers</p>
             </div>
             <!-- footer ends -->
@@ -237,7 +281,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- sidebar js -->
      <script type="text/javascript" src="js/sidebar.js"></script>
+     <!-- chart.js -->
      <script type="text/javascript" src="js/chart.js"></script>
   </body>
 </html>
