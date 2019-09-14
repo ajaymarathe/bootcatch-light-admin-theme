@@ -2,10 +2,10 @@
 Free bootcatch light admin theme is fully responsive for bootstrap lovers, based on bootstrap - under MIT license. do whatever you want to do :)
 
 ## first-shot
-[![bootcatch light admin theme](https://raw.githubusercontent.com/ajaymarathe/bootcatch-light-admin-theme/master/img/first.png)](http://preview.bootcatch.com/bootcatch-light-admin-theme/)
+[![bootcatch light admin theme](https://raw.githubusercontent.com/ajaymarathe/bootcatch-light-admin-theme/master/img/first.png)](https://ajaymarathe.github.io/bootcatch-light-admin-theme/index.html)
 
 ## second-shot
-[![bootcatch light admin theme](https://raw.githubusercontent.com/ajaymarathe/bootcatch-light-admin-theme/master/img/second.png)](http://preview.bootcatch.com/bootcatch-light-admin-theme/)
+[![bootcatch light admin theme](https://raw.githubusercontent.com/ajaymarathe/bootcatch-light-admin-theme/master/img/second.png)](https://ajaymarathe.github.io/bootcatch-light-admin-theme/index.html)
 
 ## About
 
